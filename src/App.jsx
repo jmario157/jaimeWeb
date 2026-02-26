@@ -21,24 +21,24 @@ export default function App() {
       <header className="hero">
         <div className="hero-bg" aria-hidden="true" />
         <div className="hero-content">
-          <p className="hero-eyebrow">Pintado y enderezado</p>
+          <p className="hero-eyebrow">Taller de carrocería</p>
           <h1 className="hero-title">
-            Restauración que <em>se nota</em>
+            Enderezado y pintura <span className="hero-title-accent">automotriz</span>
           </h1>
           <p className="hero-desc">
-            Trabajo serio en autos chocados. Desde el enderezado hasta el pintado final,
-            con acabados que devuelven el aspecto original a tu vehículo.
+            Reparamos autos chocados: enderezado de chasis y carrocería, preparación,
+            pintado y barniz. Trabajo de taller con acabado profesional.
           </p>
         </div>
       </header>
 
       <section className="section section-process">
         <div className="container">
-          <span className="section-eyebrow">Proceso completo</span>
-          <h2 className="section-title">De daño a obra terminada</h2>
+          <span className="section-eyebrow">En el taller</span>
+          <h2 className="section-title">Proceso de trabajo</h2>
           <p className="section-desc">
-            Seguimiento paso a paso de una restauración: desde la llegada del vehículo
-            hasta la entrega con pintura en rojo y detalles listos.
+            Así trabajamos una unidad: desde que entra el carro chocado hasta la entrega
+            con pintura y barniz listos.
           </p>
           <div className="process-track">
             {CAR1_STEPS.map((step, i) => (
@@ -61,7 +61,7 @@ export default function App() {
 
       <section className="section section-before-after">
         <div className="container">
-          <span className="section-eyebrow">Otro resultado</span>
+          <span className="section-eyebrow">Resultados</span>
           <h2 className="section-title">Antes y después</h2>
           <div className="before-after-grid">
             {CAR2_STEPS.map((step) => (
@@ -84,22 +84,22 @@ export default function App() {
       <section className="section section-services">
         <div className="container">
           <span className="section-eyebrow">Servicios</span>
-          <h2 className="section-title">Qué hacemos</h2>
+          <h2 className="section-title">Qué hacemos en el taller</h2>
           <div className="services-grid">
             <article className="service-card">
-              <div className="service-icon">◆</div>
-              <h3>Enderezado</h3>
-              <p>Recuperamos la estructura y las líneas del vehículo para que quede como antes del golpe.</p>
+              <span className="service-num">01</span>
+              <h3>Enderezado de carrocería</h3>
+              <p>Recuperamos chasis y líneas del vehículo. Enderezado y soldadura para dejar la estructura como antes del golpe.</p>
             </article>
             <article className="service-card">
-              <div className="service-icon">◆</div>
-              <h3>Pintado</h3>
-              <p>Pintura de calidad, con color parejo y acabado profesional que cuida el valor de tu auto.</p>
+              <span className="service-num">02</span>
+              <h3>Pintura automotriz</h3>
+              <p>Preparación, pintado y barniz. Color parejo y acabado de taller que mantiene el valor de tu auto.</p>
             </article>
             <article className="service-card">
-              <div className="service-icon">◆</div>
-              <h3>Detalle final</h3>
-              <p>Pulido y revisión para que el resultado se vea impecable al entregar.</p>
+              <span className="service-num">03</span>
+              <h3>Pulido y entrega</h3>
+              <p>Pulido final y revisión para que el carro salga impecable y listo para entregar.</p>
             </article>
           </div>
         </div>
@@ -108,9 +108,9 @@ export default function App() {
       <footer className="contact">
         <div className="container">
           <span className="section-eyebrow">Contacto</span>
-          <h2 className="contact-title">¿Tu auto necesita un arreglo?</h2>
+          <h2 className="contact-title">Cotiza tu reparación</h2>
           <p className="contact-desc">
-            Escribe o llama para cotizar. Aquí puedes dejar tu número, correo y redes para que te contacten.
+            Escribe o llama para cotizar enderezado y pintura. Deja aquí tu número, correo o redes.
           </p>
           <div className="contact-methods">
             <a href="tel:+521234567890" className="contact-link">📞 +52 1 234 567 8900</a>
